@@ -35,17 +35,17 @@ body{
        .container{
            @include size(60%,80%);
            @include d_flex(flex,column,center,center);
-            .banner{
-                @include size(200px,200px);
-                padding:1vh;
-                margin-bottom:3vh;
-                border-radius:50%;
-                img{
-                    border:solid 1pc #869ab8;
+           .banner{
+            @include size(200px,200px);
+            padding:1vh;
+            margin-bottom:3vh;
+            border-radius:50%;
+            img{
+                border:solid 1pc #869ab8;
                 }
-            }
-            strong a{
-                text-decoration:$none;
+            } 
+           strong a{
+               text-decoration:none;
             }
             .form-control{
                 margin-bottom:1vh;

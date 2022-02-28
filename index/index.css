@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Teko:wght@300&display=swap");
+body {
+  font-family: 'Allerta Stencil', sans-serif;
+  padding: 1vh;
+  background: #BFBFBF;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  body .container {
+    height: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    body .container .banner {
+      height: 200px;
+      width: 200px;
+      padding: 1vh;
+      margin-bottom: 3vh;
+      border-radius: 50%; }
+      body .container .banner img {
+        border: solid 1pc #869ab8; }
+    body .container strong a {
+      text-decoration: none; }
+    body .container .form-control {
+      margin-bottom: 1vh; }
+    body .container .btn {
+      width: 100%;
+      margin-bottom: 3vh; }
